@@ -44,13 +44,16 @@ echo "════════════════════════�
 
 echo ""
 echo " Inserção em massa (ordem 5) "
-bench_insert "large_o5_100k" 5 100000
 bench_insert "large_o5_500k" 5 500000
+bench_insert "large_o5_5kk" 5 5000000
+bench_insert "large_o5_500kk" 5 500000000
 
 echo ""
 echo " Inserção em massa (ordem 50) "
-bench_insert "large_o50_100k" 50 100000
 bench_insert "large_o50_500k" 50 500000
+bench_insert "large_o50_5kk" 50 5000000
+bench_insert "large_o50_500kk" 50 500000000
+
 
 echo ""
 echo "────────────────────────────────────────"
