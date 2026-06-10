@@ -1,4 +1,7 @@
 treectl
+**/data/
+**/results/
+**/output/
 
 # Prerequisites
 *.d
